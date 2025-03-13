@@ -34,7 +34,7 @@ const Home = () => {
       <span className='title-line'></span>
       </div>
       <div className='mt-12'>
-        <Link to="/createuser" className=' p-2 bg-black text-white rounded-md hover:bg-green-400 transition duration-500'>Add Users +</Link>
+        <Link to="/createuser" className=' p-2 bg-black text-white shadow-md shadow-neutral-500 rounded-md hover:bg-green-400 transition duration-500'>Add Users +</Link>
       </div>
       <table className='w-full mt-7'>
         <thead>

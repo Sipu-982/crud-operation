@@ -52,8 +52,8 @@ const CreateUser = () => {
             <input type="text" placeholder='Update age' value={age} onChange={(e) => setAge(e.target.value)} />
           </div>
           <div className="form-field button flex justify-between">
-            <Link className='p-2 bg-red-500 text-white w-25 cursor-pointer text-center rounded-md' to="/">Back</Link>
-            <button type="submit" className='p-2 bg-green-500 text-white w-25 cursor-pointer rounded-md'>Update</button>
+            <Link className='p-2 bg-red-500 text-white w-25 cursor-pointer text-center rounded-md shadow-md shadow-neutral-400' to="/">Back</Link>
+            <button type="submit" className='p-2 bg-green-500 text-white w-25 cursor-pointer rounded-md shadow-md shadow-neutral-400'>Update</button>
           </div>
         </form>
       </div>
