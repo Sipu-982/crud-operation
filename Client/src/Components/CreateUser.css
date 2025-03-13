@@ -1,0 +1,29 @@
+.container{
+    animation: fadeup 0.4s ease-in-out;
+}
+@keyframes fadeup{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.form-field{
+    padding: 12px 0;
+}
+.form-field input{
+    padding-block-end: 12px;
+    width: 430px;
+    outline: none;
+    border-bottom: 1px solid rgb(1, 1, 55);
+    transition: 0.4s;
+}
+.form-field input:focus{
+    border-bottom-color: rgb(1, 255, 115);
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+}

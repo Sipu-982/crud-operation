@@ -1,0 +1,27 @@
+/* Ensures the background covers the entire page */
+/* .crud-container{
+  background-image: url('./Components/HD-wallpaper-college.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  animation: movebg 15s linear infinite alternate-reverse both;
+
+}
+@keyframes movebg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+.content{
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+Container styling */
