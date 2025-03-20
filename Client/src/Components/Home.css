@@ -18,7 +18,7 @@ th, td {
     border: 1px solid rgb(219, 223, 220);
     padding: 12px;
     text-align: left;
-    background: #e6fcf0;
+    background: rgba(248, 233, 255, 0.7);
     vertical-align: top;  
 }
 

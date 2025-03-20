@@ -12,6 +12,8 @@ const Home = () => {
   .then(result=>setUsers(result.data))
   .catch(err=>console.log(err))
  },[])
+
+ 
  const handleDelete = (id) => {
   if (window.confirm("Are you sure you want to delete this user?")) {
     axios.delete(`http://localhost:3001/deleteUser/${id}`)
