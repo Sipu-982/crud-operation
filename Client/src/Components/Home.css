@@ -36,3 +36,13 @@ th {
     height: 1px;
     background: #f3f0f0;
 }
+@media screen and (max-width:600px) {
+    .home-btn{
+        padding: 25px 0;
+    }
+}
+@media screen and (min-width:601px) and (max-width:1350px) {
+    .home-btn{
+        margin: 25px 0;
+    }
+}

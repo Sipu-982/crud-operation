@@ -26,7 +26,7 @@ app.get('/', async (req, res) => {
 });
 
 // Get a single user by ID
-app.get('/getUser/:id', async (req, res) => {
+app.get('/getuser/:id', async (req, res) => {
     try {
         const user = await UserModel.findById(req.params.id);
         if (!user) {
@@ -49,7 +49,7 @@ app.post('/createUser', async (req, res) => {
 });
 
 // Update user details
-app.put('/updateUser/:id', async (req, res) => {
+app.put('/updateuser/:id', async (req, res) => {
     try {
         const updatedUser = await UserModel.findByIdAndUpdate(
             req.params.id,
